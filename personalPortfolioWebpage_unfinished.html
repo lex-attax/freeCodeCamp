@@ -1,30 +1,83 @@
 <script src="https://use.fontawesome.com/c36d1c4760.js"></script>
 <style>
-  .round-buttons {
-    border-color: ;
-    border-width: 50px;
-    border-style: solid;
-    border-radius: 50%;
+  .header{
+    height:50px;
+    background:#F0F011;
+    border:2px solid #CCC;
+    position:fixed;
+    top:0px;
+    width:100%;
+  }
+  .content{
+    width: 960px;
+    background:#F011F0;
+    border:2px solid #CCC;
+    height: 2000px;
+    margin:70px auto;
   }
   
-  #button {
-    width: 20em;  height: 20em;
+  .roundButtons{
+    border-color: ;
+    border-width: 15px;
+    border-style: solid;
+    border-radius: 50%;
+    cursor: pointer;
+    
+  }
+  
+
+  .topButton {
+    background-color: #e7e7e7;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+     
 }
 
+
 </style>
+<div class="header">
+<div id='topbutton'>
+<a href="#topAbout"><button type="topButton" class="btn topButton">About</button></a>
+<a href="#middlePortfolio"><button type="topButton" class="btn topButton">Portfolio</button></a>
+<a href="#bottomContact"><button type="topButton" class="btn topButton">Contact</button></a>
+  </div>
+</div>
 
-<div id='top'> </div>
+<div class"content">
+
+<div id='topAbout'> </div>
+<br>
+ABOUT
+<br>
+I'm currently working on the Front End Development Certificate of freeCodeCamp.
+<br>
+I have some experience with the following technologies:
+<br>
+<b> Front-End: </b> HTML, CSS, JavaScript
+<br>
+<b>Back-End:</b> Java
+<br>
+<b>Database:</b> SQL
+<br>
+</div>
 
 
 
-<a href="#middle">Go To Middle</a>
 
-<a href="https://codepen.io/lex-attax/"target"_blank"><button type="button" class="btn round-buttons"><i class="fa fa-codepen" aria-hidden="true"></i></button></a>
-
-<a href="https://github.com/lex-attax"target"_blank"><button type="button" class="btn round-buttons"><i class="fa fa-github" aria-hidden="true"></i></button></a>
-
-<p> <a href="https://www.freecodecamp.com/lex-attax"target"_blank"><button type="button" class="btn round-buttons" id="button"><i class="fa fa-free-code-camp fa-5x" aria-hidden="true"></i></button></a>
-</p>
+<div id='middlePortfolio' 
+     <br>
+<br>
+ PORTFOLIO
+<br>
+I will add some projects as soon as i have something to show :)
 
 <p>
 <a href="#"><img class="img-responsive" src="http://hdimages.org/wp-content/uploads/2017/03/placeholder-image5.jpg" alt="A Placeholder-Image" height="250" width="300"></a>
@@ -35,8 +88,17 @@
   
 <a href="#"><img class="img-responsive" src="http://hdimages.org/wp-content/uploads/2017/03/placeholder-image5.jpg" alt="A Placeholder-Image" height="250" width="300"></a>
 </p>
-<div id='middle' </div>
+</div>
 
 
 
-<div id='bottom' </div>
+<div id='bottomContact' </div>
+
+<div id='footer'>
+<p>
+<a href="https://codepen.io/lex-attax/"target"_blank"><button type="button" class="btn roundButtons"><i class="fa fa-codepen" aria-hidden="true"></i></button></a>
+<a href="https://github.com/lex-attax"target"_blank"><button type="button" class="btn roundButtons"><i class="fa fa-github" aria-hidden="true"></i></button></a>
+<a href="https://www.freecodecamp.com/lex-attax"target"_blank"><button type="button" class="btn roundButtons"><i class="fa fa-free-code-camp fa-5x" aria-hidden="true"></i></button></a>
+</p>
+</div>
+</div>
